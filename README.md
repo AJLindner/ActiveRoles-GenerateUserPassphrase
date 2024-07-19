@@ -1,5 +1,5 @@
 # ActiveRoles-GenerateUserPassphrase
-A policy script module for Active Roles to generate a passphrase for a user account, as an alternative to the built-in password generator. This script makes a web service call to the [EFF's large wordlist for passphrases](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt). Alternatively, you could download the file offline and use it locally instead. Documentation for the `New-RandomPassphrase` cmdlet can be found [here](https://github.com/AJLindner/Powershell-Goodies/blob/main/README.md#new-randompassphrase).
+A policy script module for Active Roles to generate a passphrase for an Active Directory user account, as an alternative to the built-in password generator. This script makes a web service call to the [EFF's large wordlist for passphrases](https://www.eff.org/files/2016/07/18/eff_large_wordlist.txt). Alternatively, you could download the file offline and use it locally instead. Documentation for the `New-RandomPassphrase` cmdlet can be found [here](https://github.com/AJLindner/Powershell-Goodies/blob/main/README.md#new-randompassphrase).
 
 # Parameters
 You can modify the following parameters when applying the script module to an Active Roles Administration Policy:
